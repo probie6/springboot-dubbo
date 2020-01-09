@@ -32,6 +32,6 @@ public class PopulationController {
 
         log.info(druidDataSource.getClass().toString());
         log.info(populationMapper.list().toString());
-        return "post success";
+        return "post";
     }
 }
