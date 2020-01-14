@@ -26,6 +26,7 @@ public class Generator {
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setAuthor("probie6");
         gc.setOpen(false);
+        gc.setSwagger2(true);
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc);
 
@@ -86,14 +87,14 @@ public class Generator {
         mpg.setCfg(cfg);
 
         // 配置模板
-        TemplateConfig templateConfig = new TemplateConfig();
+//        TemplateConfig templateConfig = new TemplateConfig();
 
         // 配置自定义输出模板
         //指定自定义模板路径，注意不要带上.ftl/.vm, 会根据使用的模板引擎自动识别
-         templateConfig.setEntity("templates/entity.java");
+//         templateConfig.setEntity("templates/entity.java");
 
-        templateConfig.setXml(null);
-        mpg.setTemplate(templateConfig);
+//        templateConfig.setXml(null);
+//        mpg.setTemplate(templateConfig);
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
