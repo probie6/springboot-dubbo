@@ -1,6 +1,7 @@
-package com.newbie.common.response;
+package com.newbie.basic;
 
-import com.newbie.common.enums.ResponseTypes;
+
+import com.newbie.basic.enums.ResponseTypes;
 
 /**
  * create by 王飞 on 2020-01-14

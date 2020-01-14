@@ -1,3 +1,4 @@
 rootProject.name = 'dubbo-demo'
 include 'server'
+include 'basic-module'
 
