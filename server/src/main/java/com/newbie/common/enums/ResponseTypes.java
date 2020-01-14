@@ -1,4 +1,4 @@
-package com.newbie.common;
+package com.newbie.common.enums;
 
 /**
  * create by 王飞 on 2020-01-14
