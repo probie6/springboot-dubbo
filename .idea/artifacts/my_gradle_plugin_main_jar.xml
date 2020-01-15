@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="my-gradle-plugin_main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/my_gradle_plugin_main_jar</output-path>
+    <root id="archive" name="my-gradle-plugin_main.jar">
+      <element id="module-output" name="my-gradle-plugin_main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/4.7/generated-gradle-jars/gradle-api-4.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/tyyw2.0/gradle-4.7/lib/groovy-all-2.4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/tyyw2.0/gradle-4.7/lib/gradle-installation-beacon-4.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

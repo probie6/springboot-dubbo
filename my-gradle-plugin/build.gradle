@@ -1,0 +1,31 @@
+group 'com.newbie.plugin'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+group = 'com.fastgo'
+version = '1.1-test'
+uploadArchives {
+    //使用当前目录下面的maven仓库，仓库在当前目录的repo文件目录中
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../repo'))
+        }
+    }
+}
+
+//apply plugin: 'test-plugin'
+
