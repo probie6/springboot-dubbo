@@ -8,6 +8,14 @@ dependencies {
     compile project(":basic-module")
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // mybatis-plus
+    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.2.0'
+    compile 'com.baomidou:mybatis-plus-generator:3.3.0'
+    compile 'org.apache.velocity:velocity-engine-core:2.1'
+
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.15'
+    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.10'
 }
 
 greeting {
