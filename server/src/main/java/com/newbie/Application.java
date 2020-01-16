@@ -1,8 +1,6 @@
 package com.newbie;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.newbie.basic.ResponseResult;
-import com.newbie.plugin.HelloPlugin;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

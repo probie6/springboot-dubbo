@@ -24,7 +24,7 @@ public class Generator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir") + File.separator + "server";
         gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("probie6");
+        gc.setAuthor("com.probie6.probie6");
         gc.setOpen(false);
         gc.setSwagger2(true);
         // gc.setSwagger2(true); 实体属性 Swagger2 注解

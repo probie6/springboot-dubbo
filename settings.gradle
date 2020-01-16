@@ -1,5 +1,6 @@
-rootProject.name = 'dubbo-demo'
+rootProject.name = 'server'
 include 'server'
 include 'basic-module'
 include 'my-gradle-plugin'
+include 'spring-cloud-gateway'
 
