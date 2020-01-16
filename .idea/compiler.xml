@@ -31,6 +31,8 @@
       <module name="com.xyzlf.plugin.my-gradle-plugin.test" target="1.8" />
       <module name="dubbo-demo.main" target="1.8" />
       <module name="dubbo-demo.test" target="1.8" />
+      <module name="master.main" target="1.8" />
+      <module name="master.test" target="1.8" />
       <module name="my-gradle-plugin_main" target="1.8" />
       <module name="my-gradle-plugin_test" target="1.8" />
       <module name="org.newbie.dubbo.demo.main" target="1.8" />

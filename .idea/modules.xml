@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.iml" filepath="$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.test.iml" filepath="$PROJECT_DIR$/.idea/modules/basic-module/com.newbie.basic-module.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/master.iml" filepath="$PROJECT_DIR$/.idea/modules/master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/master.main.iml" filepath="$PROJECT_DIR$/.idea/modules/master.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/master.test.iml" filepath="$PROJECT_DIR$/.idea/modules/master.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin_main.iml" group="my-gradle-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin_test.iml" group="my-gradle-plugin" />
+    </modules>
+  </component>
+</project>

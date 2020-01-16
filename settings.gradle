@@ -1,4 +1,4 @@
-rootProject.name = 'dubbo-demo'
+rootProject.name = 'master'
 include 'server'
 include 'basic-module'
 include 'my-gradle-plugin'
