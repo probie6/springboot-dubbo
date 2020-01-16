@@ -21,6 +21,8 @@
       <module name="com.newbie.plugin.my-gradle-plugin.test" target="1.8" />
       <module name="com.newbie.server.main" target="1.8" />
       <module name="com.newbie.server.test" target="1.8" />
+      <module name="com.newbie.spring-cloud-gateway.main" target="1.8" />
+      <module name="com.newbie.spring-cloud-gateway.test" target="1.8" />
       <module name="com.ryze.demo.main" target="1.8" />
       <module name="com.ryze.demo.test" target="1.8" />
       <module name="com.ryze.dubbo-dem.main" target="1.8" />
@@ -35,6 +37,8 @@
       <module name="my-gradle-plugin_test" target="1.8" />
       <module name="org.newbie.dubbo.demo.main" target="1.8" />
       <module name="org.newbie.dubbo.demo.test" target="1.8" />
+      <module name="spring-cloud-gateway_main" target="1.8" />
+      <module name="spring-cloud-gateway_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

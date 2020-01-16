@@ -7,6 +7,7 @@ buildscript {
         maven {
             url 'https://maven.aliyun.com/repository/public'
         }
+        mavenCentral()
     }
     dependencies {
         // 让spring-boot支持gradle
@@ -43,7 +44,6 @@ subprojects {
     }
 
     dependencies {
-        compile 'org.springframework.boot:spring-boot-starter-web'
         testCompile 'org.springframework.boot:spring-boot-starter-test'
         compile group: 'io.netty', name: 'netty-all', version: '4.1.15.Final'
         testCompile group: 'junit', name: 'junit', version: '4.12'
@@ -52,14 +52,6 @@ subprojects {
         compile 'io.springfox:springfox-swagger-ui:2.7.0'
         compile 'ch.qos.logback:logback-classic:1.2.3'
         compile 'org.projectlombok:lombok:1.16.6'
-
-        // mybatis-plus
-        compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.2.0'
-        compile 'com.baomidou:mybatis-plus-generator:3.3.0'
-        compile 'org.apache.velocity:velocity-engine-core:2.1'
-
-        compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.15'
-        compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.10'
 
     }
 }
