@@ -7,6 +7,14 @@ spring:
     gateway:
       routes:
         - id: hello_route
-          uri: http://127.0.0.1:8080
+          uri: http://localhost:8080
           predicates:
-            - Path=/sayHello,/sayHelloFeign
+            - Path=/api/hello
+          filters:
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                # 服务熔断回调函数
+                fallbackUri: forward:/fallback
+            # 想请求参数中追加foo=bar
+            - AddRequestParameter=foo, bar
