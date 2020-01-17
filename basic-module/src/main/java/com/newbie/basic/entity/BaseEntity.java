@@ -17,5 +17,5 @@ public class BaseEntity {
     private Date lastModifyTime;
 
     @ApiModelProperty(value = "是否删除，Y/N")
-    private String delete;
+    private String del;
 }

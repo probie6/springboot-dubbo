@@ -23,13 +23,13 @@ public class Swagger2Config {
     public Docket controllerApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
-                        .title("新手springboot接口文档")
+                        .title("springboot接口文档")
                         .description("")
                         .contact(new Contact("wangfei", null, null))
                         .version("版本号:1.0")
                         .build())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.newbie.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.newbie.portal"))
                 .paths(PathSelectors.any())
                 .build();
     }
