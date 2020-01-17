@@ -1,6 +1,6 @@
 rootProject.name = 'springboot-dubbo'
 include 'server'
-include 'basic-module'
+include 'api-dto'
 include 'my-gradle-plugin'
 include 'spring-cloud-gateway'
 

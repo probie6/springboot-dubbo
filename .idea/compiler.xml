@@ -11,6 +11,8 @@
       <module name="com.gradle.api.server.test" target="1.8" />
       <module name="com.newbi.dubbo-demo.main" target="1.8" />
       <module name="com.newbi.dubbo-demo.test" target="1.8" />
+      <module name="com.newbie.api-dto.main" target="1.8" />
+      <module name="com.newbie.api-dto.test" target="1.8" />
       <module name="com.newbie.basic-module.main" target="1.8" />
       <module name="com.newbie.basic-module.test" target="1.8" />
       <module name="com.newbie.dubbo-demo.main" target="1.8" />
@@ -41,6 +43,8 @@
       <module name="org.newbie.dubbo.demo.test" target="1.8" />
       <module name="server.main" target="1.8" />
       <module name="server.test" target="1.8" />
+      <module name="springboot-dubbo.main" target="1.8" />
+      <module name="springboot-dubbo.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

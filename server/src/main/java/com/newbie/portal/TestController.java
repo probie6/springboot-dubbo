@@ -15,7 +15,6 @@ public class TestController {
 
     @RequestMapping(value = "/hello")
     public ResponseResult hello(String foo) {
-
         log.info(foo);
         String result = "hello";
         return new ResponseResult<>(result);

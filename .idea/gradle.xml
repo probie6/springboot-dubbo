@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/basic-module" />
+            <option value="$PROJECT_DIR$/api-dto" />
             <option value="$PROJECT_DIR$/my-gradle-plugin" />
             <option value="$PROJECT_DIR$/server" />
             <option value="$PROJECT_DIR$/spring-cloud-gateway" />

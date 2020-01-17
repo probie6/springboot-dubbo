@@ -28,7 +28,7 @@ import java.util.Arrays;
  * create by wangfei on 2020-01-16
  */
 @Slf4j
-@Component
+//@Component
 @ConfigurationProperties("org.pass.jwt")
 public class JWTTokenFilter implements GlobalFilter, Ordered {
 
