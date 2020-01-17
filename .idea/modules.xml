@@ -8,15 +8,19 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/com.newbie.server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/com.newbie.server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/com.newbie.spring-cloud-gateway.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/com.newbie.user-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin_main.iml" group="my-gradle-plugin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin_test.iml" group="my-gradle-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-dubbo.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-dubbo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-dubbo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-dubbo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-dubbo.test.iml" />
