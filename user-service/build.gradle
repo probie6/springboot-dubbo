@@ -6,6 +6,7 @@ sourceCompatibility = 1.8
 
 dependencies {
     compile project(":api-dto")
+    compile project(":api-user")
 
     compile 'org.springframework.boot:spring-boot-starter-web'
 
@@ -24,8 +25,8 @@ dependencies {
     implementation("io.springfox:springfox-swagger-ui:2.9.2")
 
     // dubbo
-    // https://mvnrepository.com/artifact/com.alibaba/dubbo
-    compile group: 'com.alibaba', name: 'dubbo', version: '2.6.6'
+    // https://mvnrepository.com/artifact/io.dubbo.springboot/spring-boot-starter-dubbo
+    compile group: 'io.dubbo.springboot', name: 'spring-boot-starter-dubbo', version: '1.0.0'
     // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
     compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.5.5'
     // https://mvnrepository.com/artifact/com.101tec/zkclient

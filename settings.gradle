@@ -5,4 +5,5 @@ include 'my-gradle-plugin'
 include 'spring-cloud-gateway'
 //include 'order-service'
 include 'order-service'
+include 'api-user'
 

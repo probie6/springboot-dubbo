@@ -6,7 +6,6 @@ import com.baomidou.mybatisplus.generator.InjectionConfig;
 import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -22,7 +21,7 @@ public class Generator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        String projectPath = System.getProperty("user.dir") + File.separator + "server";
+        String projectPath = System.getProperty("newbie.dir") + File.separator + "server";
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setAuthor("com.probie6.probie6");
         gc.setOpen(false);

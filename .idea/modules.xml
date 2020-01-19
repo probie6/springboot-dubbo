@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/my-gradle-plugin/com.fastgo.my-gradle-plugin.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-dto/com.newbie.api-dto.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" />

@@ -1,17 +1,17 @@
 server:
-  port: 8089
+  port: 8088
 
 spring:
   dubbo:
       application:
-        name: user-service #应用名
+        name: order-service #应用名
       registry:
         address: zookeeper://192.168.255.128
         port: 2181 #提供注册的端口
       protocol:
         name: dubbo
         port: 20890 #dubbo服务暴露的端口
-      scan: com.newbie.portal.rpc #扫描的包名
+      scan: com.newbie.portal #扫描的包名
   datasource:
     name: dev
     driver-class-name: com.mysql.cj.jdbc.Driver
