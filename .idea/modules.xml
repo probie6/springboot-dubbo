@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-user/com.newbie.api-user.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/com.newbie.demo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service/com.newbie.order-service.test.iml" />

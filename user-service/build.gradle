@@ -1,3 +1,5 @@
+// 使用spring boot
+apply plugin: "org.springframework.boot"
 
 group 'com.newbie'
 version '1.0-SNAPSHOT'

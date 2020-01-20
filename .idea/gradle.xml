@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api-dto" />
             <option value="$PROJECT_DIR$/api-user" />
+            <option value="$PROJECT_DIR$/demo" />
             <option value="$PROJECT_DIR$/my-gradle-plugin" />
             <option value="$PROJECT_DIR$/order-service" />
             <option value="$PROJECT_DIR$/spring-cloud-gateway" />

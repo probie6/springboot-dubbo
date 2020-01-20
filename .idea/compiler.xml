@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.fastgo.api-user.main" target="1.8" />
+      <module name="com.fastgo.api-user.test" target="1.8" />
       <module name="com.fastgo.my-gradle-plugin.main" target="1.8" />
       <module name="com.fastgo.my-gradle-plugin.test" target="1.8" />
       <module name="com.gradle.api.server.main" target="1.8" />
@@ -19,6 +21,8 @@
       <module name="com.newbie.api-user.test" target="1.8" />
       <module name="com.newbie.basic-module.main" target="1.8" />
       <module name="com.newbie.basic-module.test" target="1.8" />
+      <module name="com.newbie.demo.main" target="1.8" />
+      <module name="com.newbie.demo.test" target="1.8" />
       <module name="com.newbie.dubbo-demo.main" target="1.8" />
       <module name="com.newbie.dubbo-demo.test" target="1.8" />
       <module name="com.newbie.my-gradle-plugin.main" target="1.8" />
