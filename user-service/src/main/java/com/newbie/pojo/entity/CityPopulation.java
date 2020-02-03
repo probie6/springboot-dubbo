@@ -23,6 +23,9 @@ public class CityPopulation extends BaseEntity {
 
     private static final long serialVersionUID=1L;
 
+    @ApiModelProperty(value = "主键")
+    private String id;
+
     @ApiModelProperty(value = "名称")
     private String name;
 

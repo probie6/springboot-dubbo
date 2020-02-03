@@ -1,47 +1,46 @@
-version '1.0.0'
-
-apply plugin: 'java'
+// 使用spring boot
 apply plugin: "org.springframework.boot"
+
+group 'com.probie'
+version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
     compile project(":api-dto")
     compile project(":api-user")
+    compile project(":spi-demo")
 
     compile 'org.springframework.boot:spring-boot-starter-web'
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    // mybatis-plus
-    compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.2.0'
-    compile 'com.baomidou:mybatis-plus-generator:3.3.0'
     compile 'org.apache.velocity:velocity-engine-core:2.1'
-
-    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.15'
-    compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.10'
-
+    
     implementation("io.springfox:springfox-swagger2:2.9.2")
     implementation("io.springfox:springfox-swagger-ui:2.9.2")
 
-    // dubbo
     // https://mvnrepository.com/artifact/org.apache.dubbo/dubbo
     compile group: 'org.apache.dubbo', name: 'dubbo', version: '2.7.3'
+
     // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
     compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.5.6'
-    // https://mvnrepository.com/artifact/com.101tec/zkclient
-    compile group: 'com.101tec', name: 'zkclient', version: '0.10'
     // netty
     compile 'io.netty:netty-all:4.1.32.Final'
-// https://mvnrepository.com/artifact/org.apache.curator/curator-framework
+    // zookeeper客户端
 //    compile group: 'org.apache.curator', name: 'curator-framework', version: '4.2.0'
     compile group: 'org.apache.curator', name: 'curator-recipes', version: '2.12.0'
-    // 熔断器
-    compile 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.1.RELEASE'
+    compile group: 'org.springframework.integration', name: 'spring-integration-sftp', version: '5.2.0.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-amqp
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.2.1.RELEASE'
+
+
+
 }
+
+greeting {
+    name = 'wangfei'
+    message = '你好'
+}
+
